@@ -1,6 +1,6 @@
 package com.learning.sorting;
 
-public class MyQuicksort {
+public class QuickSort {
     
     private int array[];
     private int length;
@@ -57,7 +57,7 @@ public class MyQuicksort {
      
     public static void main(String a[]){
          
-        MyQuicksort sorter = new MyQuicksort();
+        QuickSort sorter = new QuickSort();
         int[] input = {24,2,45,20,56,75,2,56,99,53,12};
         sorter.sort(input);
         for(int i:input){
